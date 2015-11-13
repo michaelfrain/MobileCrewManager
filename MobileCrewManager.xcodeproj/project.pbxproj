@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D38B61C61BF56D24008193B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61C51BF56D24008193B1 /* AppDelegate.swift */; };
+		D38B61C81BF56D24008193B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61C71BF56D24008193B1 /* ViewController.swift */; };
+		D38B61CB1BF56D24008193B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38B61C91BF56D24008193B1 /* Main.storyboard */; };
+		D38B61CE1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D38B61CC1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld */; };
+		D38B61D01BF56D24008193B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B61CF1BF56D24008193B1 /* Assets.xcassets */; };
+		D38B61D31BF56D24008193B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38B61D11BF56D24008193B1 /* LaunchScreen.storyboard */; };
+		D38B61DE1BF56D24008193B1 /* MobileCrewManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61DD1BF56D24008193B1 /* MobileCrewManagerTests.swift */; };
+		D38B61E91BF56D24008193B1 /* MobileCrewManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61E81BF56D24008193B1 /* MobileCrewManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D38B61DA1BF56D24008193B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38B61BA1BF56D24008193B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38B61C11BF56D24008193B1;
+			remoteInfo = MobileCrewManager;
+		};
+		D38B61E51BF56D24008193B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D38B61BA1BF56D24008193B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38B61C11BF56D24008193B1;
+			remoteInfo = MobileCrewManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D38B61C21BF56D24008193B1 /* MobileCrewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileCrewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38B61C51BF56D24008193B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D38B61C71BF56D24008193B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D38B61CA1BF56D24008193B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D38B61CD1BF56D24008193B1 /* MobileCrewManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileCrewManager.xcdatamodel; sourceTree = "<group>"; };
+		D38B61CF1BF56D24008193B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D38B61D21BF56D24008193B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D38B61D41BF56D24008193B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38B61D91BF56D24008193B1 /* MobileCrewManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCrewManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38B61DD1BF56D24008193B1 /* MobileCrewManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCrewManagerTests.swift; sourceTree = "<group>"; };
+		D38B61DF1BF56D24008193B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38B61E41BF56D24008193B1 /* MobileCrewManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCrewManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38B61E81BF56D24008193B1 /* MobileCrewManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCrewManagerUITests.swift; sourceTree = "<group>"; };
+		D38B61EA1BF56D24008193B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D38B61BF1BF56D24008193B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B61D61BF56D24008193B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B61E11BF56D24008193B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D38B61B91BF56D24008193B1 = {
+			isa = PBXGroup;
+			children = (
+				D38B61C41BF56D24008193B1 /* MobileCrewManager */,
+				D38B61DC1BF56D24008193B1 /* MobileCrewManagerTests */,
+				D38B61E71BF56D24008193B1 /* MobileCrewManagerUITests */,
+				D38B61C31BF56D24008193B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D38B61C31BF56D24008193B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61C21BF56D24008193B1 /* MobileCrewManager.app */,
+				D38B61D91BF56D24008193B1 /* MobileCrewManagerTests.xctest */,
+				D38B61E41BF56D24008193B1 /* MobileCrewManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38B61C41BF56D24008193B1 /* MobileCrewManager */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61C51BF56D24008193B1 /* AppDelegate.swift */,
+				D38B61C71BF56D24008193B1 /* ViewController.swift */,
+				D38B61C91BF56D24008193B1 /* Main.storyboard */,
+				D38B61CF1BF56D24008193B1 /* Assets.xcassets */,
+				D38B61D11BF56D24008193B1 /* LaunchScreen.storyboard */,
+				D38B61D41BF56D24008193B1 /* Info.plist */,
+				D38B61CC1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld */,
+			);
+			path = MobileCrewManager;
+			sourceTree = "<group>";
+		};
+		D38B61DC1BF56D24008193B1 /* MobileCrewManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61DD1BF56D24008193B1 /* MobileCrewManagerTests.swift */,
+				D38B61DF1BF56D24008193B1 /* Info.plist */,
+			);
+			path = MobileCrewManagerTests;
+			sourceTree = "<group>";
+		};
+		D38B61E71BF56D24008193B1 /* MobileCrewManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61E81BF56D24008193B1 /* MobileCrewManagerUITests.swift */,
+				D38B61EA1BF56D24008193B1 /* Info.plist */,
+			);
+			path = MobileCrewManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38B61C11BF56D24008193B1 /* MobileCrewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38B61ED1BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManager" */;
+			buildPhases = (
+				D38B61BE1BF56D24008193B1 /* Sources */,
+				D38B61BF1BF56D24008193B1 /* Frameworks */,
+				D38B61C01BF56D24008193B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileCrewManager;
+			productName = MobileCrewManager;
+			productReference = D38B61C21BF56D24008193B1 /* MobileCrewManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D38B61D81BF56D24008193B1 /* MobileCrewManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38B61F01BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManagerTests" */;
+			buildPhases = (
+				D38B61D51BF56D24008193B1 /* Sources */,
+				D38B61D61BF56D24008193B1 /* Frameworks */,
+				D38B61D71BF56D24008193B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38B61DB1BF56D24008193B1 /* PBXTargetDependency */,
+			);
+			name = MobileCrewManagerTests;
+			productName = MobileCrewManagerTests;
+			productReference = D38B61D91BF56D24008193B1 /* MobileCrewManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D38B61E31BF56D24008193B1 /* MobileCrewManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38B61F31BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManagerUITests" */;
+			buildPhases = (
+				D38B61E01BF56D24008193B1 /* Sources */,
+				D38B61E11BF56D24008193B1 /* Frameworks */,
+				D38B61E21BF56D24008193B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38B61E61BF56D24008193B1 /* PBXTargetDependency */,
+			);
+			name = MobileCrewManagerUITests;
+			productName = MobileCrewManagerUITests;
+			productReference = D38B61E41BF56D24008193B1 /* MobileCrewManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38B61BA1BF56D24008193B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michael Frain";
+				TargetAttributes = {
+					D38B61C11BF56D24008193B1 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D38B61D81BF56D24008193B1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D38B61C11BF56D24008193B1;
+					};
+					D38B61E31BF56D24008193B1 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D38B61C11BF56D24008193B1;
+					};
+				};
+			};
+			buildConfigurationList = D38B61BD1BF56D24008193B1 /* Build configuration list for PBXProject "MobileCrewManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D38B61B91BF56D24008193B1;
+			productRefGroup = D38B61C31BF56D24008193B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38B61C11BF56D24008193B1 /* MobileCrewManager */,
+				D38B61D81BF56D24008193B1 /* MobileCrewManagerTests */,
+				D38B61E31BF56D24008193B1 /* MobileCrewManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D38B61C01BF56D24008193B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B61D31BF56D24008193B1 /* LaunchScreen.storyboard in Resources */,
+				D38B61D01BF56D24008193B1 /* Assets.xcassets in Resources */,
+				D38B61CB1BF56D24008193B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B61D71BF56D24008193B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B61E21BF56D24008193B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D38B61BE1BF56D24008193B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B61CE1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld in Sources */,
+				D38B61C81BF56D24008193B1 /* ViewController.swift in Sources */,
+				D38B61C61BF56D24008193B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B61D51BF56D24008193B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B61DE1BF56D24008193B1 /* MobileCrewManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38B61E01BF56D24008193B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38B61E91BF56D24008193B1 /* MobileCrewManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D38B61DB1BF56D24008193B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38B61C11BF56D24008193B1 /* MobileCrewManager */;
+			targetProxy = D38B61DA1BF56D24008193B1 /* PBXContainerItemProxy */;
+		};
+		D38B61E61BF56D24008193B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38B61C11BF56D24008193B1 /* MobileCrewManager */;
+			targetProxy = D38B61E51BF56D24008193B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D38B61C91BF56D24008193B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38B61CA1BF56D24008193B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D38B61D11BF56D24008193B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38B61D21BF56D24008193B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D38B61EB1BF56D24008193B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D38B61EC1BF56D24008193B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38B61EE1BF56D24008193B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobileCrewManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frain.MobileCrewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D38B61EF1BF56D24008193B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobileCrewManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frain.MobileCrewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D38B61F11BF56D24008193B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobileCrewManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frain.MobileCrewManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileCrewManager.app/MobileCrewManager";
+			};
+			name = Debug;
+		};
+		D38B61F21BF56D24008193B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobileCrewManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frain.MobileCrewManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileCrewManager.app/MobileCrewManager";
+			};
+			name = Release;
+		};
+		D38B61F41BF56D24008193B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileCrewManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frain.MobileCrewManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MobileCrewManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D38B61F51BF56D24008193B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileCrewManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Frain.MobileCrewManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MobileCrewManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D38B61BD1BF56D24008193B1 /* Build configuration list for PBXProject "MobileCrewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B61EB1BF56D24008193B1 /* Debug */,
+				D38B61EC1BF56D24008193B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38B61ED1BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B61EE1BF56D24008193B1 /* Debug */,
+				D38B61EF1BF56D24008193B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D38B61F01BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B61F11BF56D24008193B1 /* Debug */,
+				D38B61F21BF56D24008193B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D38B61F31BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38B61F41BF56D24008193B1 /* Debug */,
+				D38B61F51BF56D24008193B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D38B61CC1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D38B61CD1BF56D24008193B1 /* MobileCrewManager.xcdatamodel */,
+			);
+			currentVersion = D38B61CD1BF56D24008193B1 /* MobileCrewManager.xcdatamodel */;
+			path = MobileCrewManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D38B61BA1BF56D24008193B1 /* Project object */;
+}
