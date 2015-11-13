@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D38B61C61BF56D24008193B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61C51BF56D24008193B1 /* AppDelegate.swift */; };
-		D38B61C81BF56D24008193B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61C71BF56D24008193B1 /* ViewController.swift */; };
 		D38B61CB1BF56D24008193B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38B61C91BF56D24008193B1 /* Main.storyboard */; };
 		D38B61CE1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D38B61CC1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld */; };
 		D38B61D01BF56D24008193B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B61CF1BF56D24008193B1 /* Assets.xcassets */; };
 		D38B61D31BF56D24008193B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38B61D11BF56D24008193B1 /* LaunchScreen.storyboard */; };
 		D38B61DE1BF56D24008193B1 /* MobileCrewManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61DD1BF56D24008193B1 /* MobileCrewManagerTests.swift */; };
 		D38B61E91BF56D24008193B1 /* MobileCrewManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61E81BF56D24008193B1 /* MobileCrewManagerUITests.swift */; };
+		D38B61F81BF56E89008193B1 /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61F61BF56E89008193B1 /* Game+CoreDataProperties.swift */; };
+		D38B61F91BF56E89008193B1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61F71BF56E89008193B1 /* Game.swift */; };
+		D38B61FD1BF56F38008193B1 /* GameCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61FC1BF56F38008193B1 /* GameCreationViewController.swift */; };
+		D38B62001BF5708E008193B1 /* TextFieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61FF1BF5708E008193B1 /* TextFieldButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 /* Begin PBXFileReference section */
 		D38B61C21BF56D24008193B1 /* MobileCrewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileCrewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38B61C51BF56D24008193B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D38B61C71BF56D24008193B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D38B61CA1BF56D24008193B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D38B61CD1BF56D24008193B1 /* MobileCrewManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobileCrewManager.xcdatamodel; sourceTree = "<group>"; };
 		D38B61CF1BF56D24008193B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		D38B61E41BF56D24008193B1 /* MobileCrewManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCrewManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38B61E81BF56D24008193B1 /* MobileCrewManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCrewManagerUITests.swift; sourceTree = "<group>"; };
 		D38B61EA1BF56D24008193B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38B61F61BF56E89008193B1 /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Game+CoreDataProperties.swift"; path = "Models/Game+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D38B61F71BF56E89008193B1 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Models/Game.swift; sourceTree = "<group>"; };
+		D38B61FC1BF56F38008193B1 /* GameCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameCreationViewController.swift; path = Controllers/GameCreationViewController.swift; sourceTree = "<group>"; };
+		D38B61FF1BF5708E008193B1 /* TextFieldButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldButton.swift; path = Views/TextFieldButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +105,10 @@
 		D38B61C41BF56D24008193B1 /* MobileCrewManager */ = {
 			isa = PBXGroup;
 			children = (
+				D38B61FE1BF57075008193B1 /* Views */,
+				D38B61FB1BF56F1D008193B1 /* Controllers */,
+				D38B61FA1BF56E97008193B1 /* Models */,
 				D38B61C51BF56D24008193B1 /* AppDelegate.swift */,
-				D38B61C71BF56D24008193B1 /* ViewController.swift */,
 				D38B61C91BF56D24008193B1 /* Main.storyboard */,
 				D38B61CF1BF56D24008193B1 /* Assets.xcassets */,
 				D38B61D11BF56D24008193B1 /* LaunchScreen.storyboard */,
@@ -126,6 +134,31 @@
 				D38B61EA1BF56D24008193B1 /* Info.plist */,
 			);
 			path = MobileCrewManagerUITests;
+			sourceTree = "<group>";
+		};
+		D38B61FA1BF56E97008193B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61F61BF56E89008193B1 /* Game+CoreDataProperties.swift */,
+				D38B61F71BF56E89008193B1 /* Game.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D38B61FB1BF56F1D008193B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61FC1BF56F38008193B1 /* GameCreationViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D38B61FE1BF57075008193B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D38B61FF1BF5708E008193B1 /* TextFieldButton.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38B61FD1BF56F38008193B1 /* GameCreationViewController.swift in Sources */,
 				D38B61CE1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld in Sources */,
-				D38B61C81BF56D24008193B1 /* ViewController.swift in Sources */,
 				D38B61C61BF56D24008193B1 /* AppDelegate.swift in Sources */,
+				D38B62001BF5708E008193B1 /* TextFieldButton.swift in Sources */,
+				D38B61F81BF56E89008193B1 /* Game+CoreDataProperties.swift in Sources */,
+				D38B61F91BF56E89008193B1 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
