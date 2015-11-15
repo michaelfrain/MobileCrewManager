@@ -18,6 +18,7 @@
 		D38B61F91BF56E89008193B1 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61F71BF56E89008193B1 /* Game.swift */; };
 		D38B61FD1BF56F38008193B1 /* GameCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61FC1BF56F38008193B1 /* GameCreationViewController.swift */; };
 		D38B62001BF5708E008193B1 /* TextFieldButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B61FF1BF5708E008193B1 /* TextFieldButton.swift */; };
+		D39B91F31BF7BFB5002B7B7E /* DateSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B91F21BF7BFB5002B7B7E /* DateSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D38B61F71BF56E89008193B1 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Models/Game.swift; sourceTree = "<group>"; };
 		D38B61FC1BF56F38008193B1 /* GameCreationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameCreationViewController.swift; path = Controllers/GameCreationViewController.swift; sourceTree = "<group>"; };
 		D38B61FF1BF5708E008193B1 /* TextFieldButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldButton.swift; path = Views/TextFieldButton.swift; sourceTree = "<group>"; };
+		D39B91F21BF7BFB5002B7B7E /* DateSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateSelectionViewController.swift; path = Controllers/DateSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D38B61FC1BF56F38008193B1 /* GameCreationViewController.swift */,
+				D39B91F21BF7BFB5002B7B7E /* DateSelectionViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			files = (
 				D38B61FD1BF56F38008193B1 /* GameCreationViewController.swift in Sources */,
 				D38B61CE1BF56D24008193B1 /* MobileCrewManager.xcdatamodeld in Sources */,
+				D39B91F31BF7BFB5002B7B7E /* DateSelectionViewController.swift in Sources */,
 				D38B61C61BF56D24008193B1 /* AppDelegate.swift in Sources */,
 				D38B62001BF5708E008193B1 /* TextFieldButton.swift in Sources */,
 				D38B61F81BF56E89008193B1 /* Game+CoreDataProperties.swift in Sources */,
@@ -524,6 +528,7 @@
 				D38B61EF1BF56D24008193B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D38B61F01BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				D38B61F21BF56D24008193B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D38B61F31BF56D24008193B1 /* Build configuration list for PBXNativeTarget "MobileCrewManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				D38B61F51BF56D24008193B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
