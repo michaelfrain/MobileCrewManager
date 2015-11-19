@@ -21,7 +21,7 @@ class GameCreationViewController: UIViewController {
     @IBOutlet var textFieldCenterJudge: UITextField!
     @IBOutlet var textFieldObserver: UITextField!
     @IBOutlet var stackViewCrew: UIStackView!
-    @IBOutlet var buttonScheduledDate: TextFieldButton!
+    @IBOutlet var buttonScheduledDate: CustomizableButton!
     
     var scheduledDate: NSDate?
 
@@ -44,6 +44,7 @@ class GameCreationViewController: UIViewController {
             formatter.timeStyle = .ShortStyle
             let dateString = formatter.stringFromDate(scheduledDate!)
             buttonScheduledDate.setTitle(dateString, forState: .Normal)
+            buttonScheduledDate.setTitleColor(UIColor.blackColor(), forState: .Normal)
         }
     }
     
@@ -51,7 +52,18 @@ class GameCreationViewController: UIViewController {
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        
+        if let identifier = segue.identifier {
+            switch identifier {
+            case "DateSelectionSegue":
+                if scheduledDate != nil {
+                    let destination = segue.destinationViewController as! DateSelectionViewController
+                    destination.selectedDate = scheduledDate
+                }
+                
+            default:
+                break
+            }
+        }
     }
 
 }

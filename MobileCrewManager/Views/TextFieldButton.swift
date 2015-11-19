@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class TextFieldButton: UIButton {
+@IBDesignable class CustomizableButton: UIButton {
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             layer.cornerRadius = cornerRadius

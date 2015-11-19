@@ -10,18 +10,25 @@ import UIKit
 
 class DateSelectionViewController: UIViewController {
     @IBOutlet var datePicker: UIDatePicker!
+    @IBOutlet var barButtonItemCancel: UIBarButtonItem!
     
     var selectedDate: NSDate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        preferredContentSize = CGSizeMake(280, 280)
+        if selectedDate != nil {
+            datePicker.setDate(selectedDate!, animated: false)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func cancelDateSelection(sender: UIBarButtonItem) {
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
 
