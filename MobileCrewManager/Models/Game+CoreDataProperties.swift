@@ -18,8 +18,8 @@ extension Game {
     @NSManaged var awayTeam: String?
     @NSManaged var homeScore: NSNumber?
     @NSManaged var awayScore: NSNumber?
-    @NSManaged var startTime: NSDate?
-    @NSManaged var endTime: NSDate?
+    @NSManaged var startTime: Date?
+    @NSManaged var endTime: Date?
     @NSManaged var hasOvertime: NSNumber?
     @NSManaged var extraPeriods: NSNumber?
     @NSManaged var crew: NSObject?

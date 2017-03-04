@@ -23,7 +23,7 @@ class GameCreationViewController: UIViewController {
     @IBOutlet var stackViewCrew: UIStackView!
     @IBOutlet var buttonScheduledDate: CustomizableButton!
     
-    var scheduledDate: NSDate?
+    var scheduledDate: Date?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,26 +37,26 @@ class GameCreationViewController: UIViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func unwindFromDateSelectionController(sender: UIStoryboardSegue) {
+    @IBAction func unwindFromDateSelectionController(_ sender: UIStoryboardSegue) {
         if scheduledDate != nil {
-            let formatter = NSDateFormatter()
-            formatter.dateStyle = .ShortStyle
-            formatter.timeStyle = .ShortStyle
-            let dateString = formatter.stringFromDate(scheduledDate!)
-            buttonScheduledDate.setTitle(dateString, forState: .Normal)
-            buttonScheduledDate.setTitleColor(UIColor.blackColor(), forState: .Normal)
+            let formatter = DateFormatter()
+            formatter.dateStyle = .short
+            formatter.timeStyle = .short
+            let dateString = formatter.string(from: scheduledDate!)
+            buttonScheduledDate.setTitle(dateString, for: UIControlState())
+            buttonScheduledDate.setTitleColor(UIColor.black, for: UIControlState())
         }
     }
     
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             switch identifier {
             case "DateSelectionSegue":
                 if scheduledDate != nil {
-                    let destination = segue.destinationViewController as! DateSelectionViewController
+                    let destination = segue.destination as! DateSelectionViewController
                     destination.selectedDate = scheduledDate
                 }
                 

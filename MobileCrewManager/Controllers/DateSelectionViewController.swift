@@ -12,11 +12,11 @@ class DateSelectionViewController: UIViewController {
     @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet var barButtonItemCancel: UIBarButtonItem!
     
-    var selectedDate: NSDate?
+    var selectedDate: Date?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        preferredContentSize = CGSizeMake(280, 280)
+        preferredContentSize = CGSize(width: 280, height: 280)
         if selectedDate != nil {
             datePicker.setDate(selectedDate!, animated: false)
         }
@@ -27,19 +27,19 @@ class DateSelectionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func cancelDateSelection(sender: UIBarButtonItem) {
-        dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func cancelDateSelection(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
     }
     
 
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             switch identifier {
             case "UnwindDateSelectionSegue":
-                let destination = segue.destinationViewController as! GameCreationViewController
+                let destination = segue.destination as! GameCreationViewController
                 destination.scheduledDate = datePicker.date
                 
             default:
